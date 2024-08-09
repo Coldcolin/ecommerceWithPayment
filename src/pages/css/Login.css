@@ -1,0 +1,69 @@
+.Login{
+    width: 80%;
+    height: auto;
+    min-height: 66vh;
+    max-height: 66vh;
+    position: absolute;
+    top: 100px;
+    display: flex;
+    gap: var(--padding);
+    justify-content: center;
+    align-items: center;
+    background: rgba( 255, 255, 255, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 20px;
+
+    & form{
+        height: 90%;
+        width: 60%;
+        display: flex;
+        gap: var(--padding);
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+
+        & label{
+            font-size: 26px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        & input{
+            width: 80%;
+            height: 50px;
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            color: grey;
+            font-weight: 500;
+        }
+
+        & button{
+            padding: 10px 30px;
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        & p{
+            color: black;
+            font-size: 17px;
+            font-weight: 500;
+
+            & span{
+                color: tomato;
+
+                & a{
+                    text-decoration: none;
+                    color: tomato;
+                }
+            }
+        }
+    }
+}

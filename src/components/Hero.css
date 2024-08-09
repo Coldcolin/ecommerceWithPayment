@@ -1,0 +1,16 @@
+.Hero{
+    width: 90%;
+    height: 60vh;
+    background: rgb(254,154,47);
+    background: radial-gradient(circle, rgba(254,154,47,1) 0%, rgba(253,183,25,1) 19%, rgba(255,211,107,1) 28%, rgba(255,211,107,1) 32%, rgba(253,192,28,1) 46%, rgba(255,211,107,1) 59%, rgba(253,188,11,1) 64%, rgba(253,188,11,1) 80%, rgba(255,211,107,1) 81%, rgba(247,212,113,1) 84%, rgba(253,197,39,1) 100%);
+    border-radius: 80px;
+    display: flex;
+    justify-content: center;
+    padding: var(--padding);
+
+    & div{
+        font-size: 26px;
+        font-weight: 700;
+        margin-top: var(--padding);
+    }
+}

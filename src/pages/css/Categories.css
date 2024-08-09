@@ -1,0 +1,23 @@
+.Categories{
+    width: 88%;
+    height: auto;
+    min-height: 66vh;
+    max-height: 66vh;
+    position: absolute;
+    top: 200px;
+    display: flex;
+    gap: var(--padding);
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: auto; 
+}
+
+.Categories::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.Categories {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

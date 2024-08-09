@@ -1,0 +1,23 @@
+.Layout{
+    background: rgb(255,148,71);
+    background: radial-gradient(circle, rgba(255,148,71,1) 0%, rgba(255,230,213,1) 19%, rgba(255,255,255,1) 32%, rgba(255,198,158,1) 50%, rgba(255,191,146,1) 81%, rgba(242,239,239,1) 100%);
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LayoutHolder{
+    background-color: var(--bg-color);
+    width: 85%;
+    min-height: 90vh;
+    height: auto;
+    border: 10px solid white;
+    border-radius: 80px;
+    padding: var(--padding);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}

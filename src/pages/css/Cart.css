@@ -1,0 +1,65 @@
+.Cart{
+    width: 88%;
+    height: auto;
+    min-height: 66vh;
+    max-height: 66vh;
+    position: absolute;
+    top: 200px;
+    display: flex;
+    gap: var(--padding);
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    overflow-y: auto;
+    padding-top: 550px;
+
+    & section{
+        height: 30px;
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top:-550px;
+        background: rgb(254,154,47);
+    background: radial-gradient(circle, rgba(254,154,47,1) 0%, rgba(253,183,25,1) 19%, rgba(255,211,107,1) 28%, rgba(255,211,107,1) 32%, rgba(253,192,28,1) 46%, rgba(255,211,107,1) 59%, rgba(253,188,11,1) 64%, rgba(253,188,11,1) 80%, rgba(255,211,107,1) 81%, rgba(247,212,113,1) 84%, rgba(253,197,39,1) 100%);
+
+        & button{
+            width: 70px;
+            border: none;
+            background-color: black;
+            border-radius: 20px;
+            height: 30px;
+            color: white;
+            cursor: pointer;
+        }
+
+        & p{
+            font-weight: 600;
+        }
+    }
+    
+    & article{
+        width: 100%;
+        padding: var(--padding);
+        display: flex;
+        /* height: 66vh;
+        max-height: 66vh; */
+        gap: var(--padding);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* overflow-y: auto; */
+    }
+}
+
+.Cart::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.Cart {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
